@@ -62,7 +62,6 @@ search.addEventListener('click', () => {
             humidity.innerHTML = `${json.main.humidity}%`;
             wind.innerHTML = `${parseInt(json.wind.speed)}Km/h`;
 
-            // POR QUE EL WIND NO FUNCIONA??
 
             weatherBox.style.display = '';
             weatherDetails.style.display = '';
